@@ -32,15 +32,23 @@ body {
 
 .main {
   @include flexCenter(row);
-  width: 80%;
+  width: 80% - 40%;
   margin: 0 auto;
 
-  #{&}-paragraph {
+  #{&}-paragraph1 {
     font-weight: map-get($font-weights, bold);
-    font-weight: weight(regular);
+    font-weight: weight(bold);
 
     &:hover {
       color: $accent-color;
+    }
+  }
+
+  #{&}-paragraph2 {
+    @extend .main-paragraph1;
+
+    &:hover {
+      color: pink;
     }
   }
 
