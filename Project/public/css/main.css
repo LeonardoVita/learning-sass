@@ -482,4 +482,76 @@ footer {
   position: initial;
   margin-top: 2rem;
 }
+
+@media screen and (min-width: 768px) {
+  .menu-btn {
+    visibility: hidden;
+  }
+  .nav {
+    visibility: visible;
+  }
+  .nav .menu-nav {
+    display: block;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    height: 100%;
+    background: transparent;
+    text-align: right;
+  }
+  .nav .menu-nav-item {
+    display: inline;
+    padding-right: 1.5rem;
+  }
+  .nav .menu-nav-link {
+    font-size: 1.5rem;
+  }
+  .home {
+    padding-top: 50vh;
+    background-position: right 0 top 30%;
+  }
+  .home .home-name {
+    margin-bottom: 1rem;
+  }
+  .about-bio {
+    font-size: 1.2rem;
+  }
+  .about-bio-image {
+    background-position: right 0 top 40%;
+  }
+  .projects-bio-image {
+    height: 40vh;
+    background-position: right 0 top 40%;
+  }
+  .projects-items {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .projects .text-secondary {
+    font-size: 3rem;
+  }
+  .contact {
+    background-position: right 0 top 30%;
+  }
+  .contact-list {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .social-icons .fa-2x {
+    margin: 1rem 1rem 0 0;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projects-items {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .projects-bio-image {
+    height: 50vh;
+  }
+}
 /*# sourceMappingURL=main.css.map */
