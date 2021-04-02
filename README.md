@@ -8,3 +8,5 @@ live app - https://leonardovita.github.io/learning-sass/Project/public/
 ![image](https://user-images.githubusercontent.com/43863949/113461831-a08f9600-93f4-11eb-8029-a3262c7abdf6.png)
 ![image](https://user-images.githubusercontent.com/43863949/113461862-c1f08200-93f4-11eb-89e0-714574d2da9f.png)
 ![image](https://user-images.githubusercontent.com/43863949/113461869-c9179000-93f4-11eb-87ab-ccf687b3445d.png)
+
+![image](https://user-images.githubusercontent.com/43863949/113461942-18f65700-93f5-11eb-8e5b-78341aef3b3b.png)
