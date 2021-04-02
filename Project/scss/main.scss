@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+.text-secondary {
+  color: $secundary-color;
+}
+
 header {
   position: fixed;
   z-index: 2;
@@ -58,3 +62,4 @@ footer {
 
 @import "./home";
 @import "./menu";
+@import "./about";
